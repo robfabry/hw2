@@ -7,24 +7,26 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 </head>
 
-    <h1 class="m-8 py-4 px-8 w-1/2 bg-yellow-100 border-4 border-red-500 rounded text-red-500 font-bold text-3xl">Welcome to Rob's Radishes - The Best Darn Radishes Around!</h1>
+   
     
 <body>
     
-    <p>Learn more about our company and delicous product by clicking the image below!</p>
-
-    <a href="about.html"> <img src="radish1.jpg" alt=""></a>
+    <div class="md:flex ">
+        <h1 class="text-center m-4 py-4 px-2 bg-gray-200 border-4 border-red-500 rounded text-red-500 font-bold text-2xl">Welcome to Rob's Radishes - The Best Darn Radishes Around!</h1>
+        <p>Learn more about our company and delicous product by clicking the image below!</p>
+        <a class="items-center href="about.html"> <img src="radish1.jpg" alt=""></a>
+    </div>
 
     <!-- Form code -->
-<div class="m-8 w-1/2 mx-auto">
-  <form action="https://maps.google.com">
-    <label for="location">Where to?</label>
-    <input type="text" id="location" name="q">
+<div netlify class="m-8 w-1/2 mx-auto">
+  <form action="submission.html">
+    <label for="email">Stay up to date with our email newsletter!</label>
+    <input type="text" id="email" name="e">
 
     <!-- <label for="favorite-color">What is your favorite color?</label>
     <input type="text" id="favorite-color" name="favoriteColor"> -->
 
-    <button>Submit form!</button>
+    <button class="block mt-4 text-white bg-red-500 rounded px-4 py-2">Sign up!</button>
   </form>
 </div>
 
