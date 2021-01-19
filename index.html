@@ -7,12 +7,26 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 </head>
 
-    <h1>Welcome to Rob's Radishes - The Best Darn Radishes Around!</h1>
+    <h1 class="m-8 py-4 px-8 w-1/2 bg-yellow-100 border-4 border-red-500 rounded text-red-500 font-bold text-3xl">Welcome to Rob's Radishes - The Best Darn Radishes Around!</h1>
     
 <body>
     
     <p>Learn more about our company and delicous product by clicking the image below!</p>
 
     <a href="about.html"> <img src="radish1.jpg" alt=""></a>
+
+    <!-- Form code -->
+<div class="m-8 w-1/2 mx-auto">
+  <form action="https://maps.google.com">
+    <label for="location">Where to?</label>
+    <input type="text" id="location" name="q">
+
+    <!-- <label for="favorite-color">What is your favorite color?</label>
+    <input type="text" id="favorite-color" name="favoriteColor"> -->
+
+    <button>Submit form!</button>
+  </form>
+</div>
+
 </body>
 </html>
